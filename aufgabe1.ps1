@@ -52,6 +52,6 @@ Do
     }
 } while (($Result).count -lt $fetchAmount)
 
-$Result | Select-Object -Property Name, animal_type
-($Result).count
+#$Result | Select-Object -Property Name, animal_type
+#($Result).count
 $Result | Export-CSV C:\temp\getAnimals.csv -force
