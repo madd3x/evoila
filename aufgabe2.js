@@ -99,7 +99,7 @@ for (let h = 0; h < hosts.length; h++) {
 			aktRAM[h] = aktRAM[h] + vms[v]["memoryMB"]
 			aktHDD[h] = aktHDD[h] + vms[v]["storageMB"]
 
-			console.log(hosts[h]["name"],vms[v]["name"], aktCPU[h],aktRAM[h],aktHDD[h]);
+			//console.log(hosts[h]["name"],vms[v]["name"], aktCPU[h],aktRAM[h],aktHDD[h]);
 
 		}
 		vms[v]["isValid"] = checkname(vms[v]["name"]);
