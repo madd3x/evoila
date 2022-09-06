@@ -26,11 +26,6 @@
         
 #>
 
-
-
-
-
-
 param
 (
 [int]$fetchAmount,
